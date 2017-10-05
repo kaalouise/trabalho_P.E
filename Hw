@@ -12,10 +12,9 @@ public class HelloWorld {
         String h = null;
         Scanner hello = new Scanner(System.in);
         
-        System.out.println("");
+        System.out.println("HELLO");
         h = hello.nextLine();
-      
-       JOptionPane.showMessageDialog(null, h);
-    
+        
+      system.out.println(h);    
 }
 }
