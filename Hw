@@ -1,0 +1,21 @@
+
+package helloworld;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+
+public class HelloWorld {
+
+   
+    public static void main(String[] args) {
+        String h = null;
+        Scanner hello = new Scanner(System.in);
+        
+        System.out.println("");
+        h = hello.nextLine();
+      
+       JOptionPane.showMessageDialog(null, h);
+    
+}
+}
